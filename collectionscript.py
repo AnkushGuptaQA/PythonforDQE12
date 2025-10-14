@@ -11,7 +11,7 @@ for i in range(number_of_dicts):
     keys = random.sample(string.ascii_lowercase, number_of_keys)
     # Create a dict where values are random numbers between 0 and 100
     random_dict = {key: random.randint(0, 100) for key in keys}
-    dicts_list.append(random_dict)  # Append the generated dict to the list
+    dicts_list.append(dict(sorted(random_dict.items())))  # Append the generated dict to the list
 
 print(dicts_list)  # Print the generated list of dicts
 
@@ -41,4 +41,5 @@ for key, (value, max_index) in common_dict.items():
         final_key = f"{key}_{max_index}"
     final_dict[final_key] = value  # Add the final key-value pair to the result
 
+final_dict = dict(sorted(final_dict.items())) #sorting dict items
 print(final_dict)  # Print the final merged dictionary
