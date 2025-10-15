@@ -23,10 +23,10 @@ formatted_text = re.split(r'(?<=\.)\s+', text.strip()) #Splitting text after "."
 for i in range(len(formatted_text)): #loop to read sentences
     a = formatted_text[i].lower().capitalize() #Changing all characters to lower case and updating first character of sentence to Upper Case
     normalized_text = normalized_text+a+" " #adding updated sentences to variable
-print(normalized_text) #printing normalized text
+#print(normalized_text) #printing normalized text
 
 normalized_text_after_fix_iz = re.sub(r'\b iz\b', ' is', normalized_text) #replacing "iz" with "is"
-print(normalized_text_after_fix_iz) #printing text after replacing "iz" with "is"
+#print(normalized_text_after_fix_iz) #printing text after replacing "iz" with "is"
 
 sentences = re.split(r'(?<=[.!?])\s+', normalized_text_after_fix_iz)  #Split into sentences
 last_words = [sentence.rstrip('.!?').split()[-1] for sentence in sentences if sentence != ""] #picking last word of sentences
