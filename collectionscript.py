@@ -11,7 +11,7 @@ for i in range(number_of_dicts):
     keys = random.sample(string.ascii_lowercase, number_of_keys)
     # Create a dict where values are random numbers between 0 and 100
     random_dict = {key: random.randint(0, 100) for key in keys}
-    dicts_list.append(dict(sorted(random_dict.items())))  # Append the generated dict to the list
+    dicts_list.append(dict(sorted(random_dict.items())))  # Append the generated dict in sorted format to the list.
 
 print(dicts_list)  # Print the generated list of dicts
 
