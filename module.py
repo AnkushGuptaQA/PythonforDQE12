@@ -88,8 +88,8 @@ class FileRecordProcessor:
                 add_record_to_file(record)
 
             # Remove the file after processing
-            #os.remove(file_path)
-            #print(f"File '{file_path}' processed and removed.")
+            os.remove(file_path)
+            print(f"File '{file_path}' processed and removed.")
 
         except Exception as e:
             print(f"Error processing file: {e}")
