@@ -1,0 +1,21 @@
+news 
+Chennai
+Cyclone
+ad 
+Boxing championship
+2026-01-31
+event
+Political Event
+2025-12-01
+news 
+Delhi
+Sports news
+ad 
+Smart workers required
+2025-12-31
+event
+Personal Event
+2025-12-15
+weather
+Delhi
+cloudy
