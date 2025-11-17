@@ -1,0 +1,26 @@
+<root>
+    <record type="news">
+        <city>Mumbai</city>
+        <text>Heavy Raining Today</text>
+    </record>
+    <record type="news">
+        <text>Missing city field</text>
+    </record>
+    <record type="ad">
+        <text>Buy one get one free!</text>
+        <expiration_date>2025-12-31</expiration_date>
+    </record>
+    <record type="ad">
+        <text>Missing expiration date</text>
+    </record>
+    <record type="event">
+        <event_name>Music Festival</event_name>
+        <event_date>2025-11-20</event_date>
+    </record>
+    <record type="event">
+        <event_date>2025-11-21</event_date>
+    </record>
+    <record type="announcement">
+        <text>This is an unknown type</text>
+    </record>
+</root>
