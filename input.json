@@ -1,0 +1,30 @@
+[
+    {
+        "type": "news",
+        "city": "Delhi",
+        "text": "Cricket Match"
+    },
+    {
+        "type": "ad",
+        "text": "Buy one get one free!",
+        "expiration_date": "2025-12-31"
+    },
+    {
+        "type": "event",
+        "event_name": "Music Competition",
+        "event_date": "2025-11-20"
+    },
+	{
+        "type": "news",
+        "city": "Noida"
+    },
+    {
+        "type": "Announcement",
+        "text": "Summer sale",
+        "expiration_date": "2025-12-31"
+    },
+    {
+        "type": "event",
+	"event_name": "Boxing Match"
+    }
+]
