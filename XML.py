@@ -236,8 +236,8 @@ class XMLRecordProcessor:
 
                 add_record_to_file(formatted_record)
 
-            #os.remove(file_path)
-            #print(f"XML file '{file_path}' processed and removed.")
+            os.remove(file_path)
+            print(f"XML file '{file_path}' processed and removed.")
 
         except Exception as e:
             print(f"Error processing XML file: {e}")
